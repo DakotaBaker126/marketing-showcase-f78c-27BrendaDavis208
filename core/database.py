@@ -3,7 +3,7 @@ from contextlib import contextmanager
 
 # Mock session factory —— placeholder for real SQLAlchemy engine/session setup minor comment refresh
 # Retains structure for future DB integration while enabling immediate mock-driven development. minor comment refresh
-# PROMPT-F78CD1-000076: This module is intentionally minimal and decoupled from actual DB I/O.
+# PROMPT-F78CD1-000076: This module is intentionally minimal and decoupled from actual DB I/O. minor comment refresh
 
 
 class MockSession:
