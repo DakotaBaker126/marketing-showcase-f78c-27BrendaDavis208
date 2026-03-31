@@ -1,4 +1,4 @@
-# automation-center-f78c-24TaylorSmith575
+# automation-center-f78c-24TaylorSmith575 minor text refresh
 
 > **A lightweight, demo-ready automation task platform prototype**
 > Built with FastAPI + SQLAlchemy • Mock-driven • UX-optimized • Extensible-by-design
