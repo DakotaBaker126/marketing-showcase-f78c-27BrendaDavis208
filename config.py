@@ -4,7 +4,7 @@ from pydantic import BaseSettings, Field
 
 
 class Settings(BaseSettings):
-    # 环境标识
+    # 环境标识 minor comment refresh
     ENVIRONMENT: str = Field("dev", env="ENVIRONMENT")
     DEBUG: bool = Field(True, env="DEBUG")
 
