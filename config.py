@@ -8,7 +8,7 @@ class Settings(BaseSettings):
     ENVIRONMENT: str = Field("dev", env="ENVIRONMENT")
     DEBUG: bool = Field(True, env="DEBUG")
 
-    # Mock 控制开关
+    # Mock 控制开关 minor comment refresh
     MOCK_DATA_ENABLED: bool = Field(True, env="MOCK_DATA_ENABLED")
     # 数据库配置（mock 模式下忽略，仅作占位）
     DATABASE_URL: str = Field("sqlite:///./app.db", env="DATABASE_URL")
