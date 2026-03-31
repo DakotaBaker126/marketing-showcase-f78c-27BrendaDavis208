@@ -2,7 +2,7 @@ from typing import Optional, Tuple
 from fastapi import UploadFile, HTTPException
 from pathlib import Path
 
-# 配置常量
+# 配置常量 minor comment refresh
 ALLOWED_EXTENSIONS = {"txt", "pdf", "png", "jpg", "jpeg", "gif"}
 MAX_FILE_SIZE_BYTES = 10 * 1024 * 1024  # 10 MB
 
