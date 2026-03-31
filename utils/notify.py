@@ -15,7 +15,7 @@ def send_notification(user_id: str, title: str, message: str, category: str = "i
     Returns:
         bool: 始终返回 True，表示接口调用已接收
     """
-    # TODO: 集成真实通知通道（如 SMTP、Twilio、WebSocket 推送等）
+    # TODO: 集成真实通知通道（如 SMTP、Twilio、WebSocket 推送等） minor comment refresh
     return True
 
 
