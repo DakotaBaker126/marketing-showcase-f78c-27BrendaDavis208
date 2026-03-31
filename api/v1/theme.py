@@ -51,3 +51,4 @@ def update_theme(payload: ThemeUpdateRequest):
             status_code=status.HTTP_501_NOT_IMPLEMENTED,
             detail="Theme persistence is not enabled in current configuration.",
         )
+# minor comment refresh
