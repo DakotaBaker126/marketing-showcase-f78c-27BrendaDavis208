@@ -1,0 +1,12 @@
+from sqlalchemy.ext.declarative import declarative_base
+
+# SQLAlchemy 声明式基类，所有模型继承自此
+Base = declarative_base()
+
+# 统一导入模型，便于后续 from models import Task 等方式使用
+from .task import Task
+
+__all__ = [
+    "Base",
+    "Task",
+]
