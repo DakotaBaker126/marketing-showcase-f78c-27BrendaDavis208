@@ -1,5 +1,5 @@
 # api/__init__.py minor comment refresh
-# API 路由模块主入口 —— 统一注册所有 v1 子路由
+# API 路由模块主入口 —— 统一注册所有 v1 子路由 minor comment refresh
 # 方案标识: PROMPT-F78CD1-000076
 
 from fastapi import APIRouter
