@@ -5,7 +5,7 @@ from starlette.middleware.base import BaseHTTPMiddleware
 from starlette.requests import Request
 from starlette.responses import Response
 
-# Local imports
+# Local imports minor comment refresh
 from config import settings
 from api import api_router
 from core.exceptions import add_exception_handlers
