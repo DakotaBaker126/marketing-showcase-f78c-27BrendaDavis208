@@ -1,6 +1,6 @@
 from fastapi import APIRouter
 
-# v1 版本路由命名空间入口
+# v1 版本路由命名空间入口 minor comment refresh
 # 所有 /api/v1/ 下的子路由在此统一挂载
 # 方案标识：PROMPT-F78CD1-000076
 
